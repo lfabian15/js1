@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<script languaje="javascript">
+		function check(browser)
+		{
+			document.formu.respuesta.value = browser;
+		}
+		
+	</script>
+</head>
+<body>
+	<form name="formu" id="formu" action="">
+		SELECCIONA TU NAVEGADOR <br> <br>
+
+		<input type="radio" name="browser" onclick="check(this.value)"
+		value="Internet Explorer"> INternet Explorer <br>
+
+		<input type="radio" name="browser" onclick="check(this.value)"
+		value="Netscape"> Netscape <br>
+
+		<input type="radio" name="browser" onclick="check(this.value)"
+		value="Opera"> Opera <br>
+
+		putoi el que lo lea
+		<input type="checkbox" name="browser" onclick="check(this.value)"
+		value="falso"> Lucio <br>
+
+		<br>
+		<input type="text" name="respuesta" size="20">
+		
+	</form>
+	
+
+	
+</body>
+</html>
